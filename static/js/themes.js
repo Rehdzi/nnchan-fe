@@ -8,7 +8,13 @@ themes.init = function() {
   }, {
     label : 'Cyberpunk',
     id : 'cyber'
-  } ];
+  }, {
+    label : 'Levamentum(in dev)',
+    id : 'leva'
+  }, {
+	  label : 'blymda (in slow dev)',
+	  id : 'blymda'
+  }];
 
   var postingLink = document.getElementById('navPosting');
 

@@ -10,8 +10,8 @@
   .theme_clear #divLatestPosts .latestPostCell, .theme_clear .innerPost,
   .theme_clear .sideCatalogCell, .theme_clear .markedPost, .theme_clear .sideCatalogMarkedCell,
   .theme_clear .catalogCell {
-  background-color: #dddddd;
-  border-radius: 5px;
+  background-color: #eae5e3;
+  border-radius: 1px;
 }
 
 .theme_cyber .topBoards a, .theme_cyber #divLatestImages img,
@@ -21,6 +21,24 @@
   background: #282A2E;
   border-radius: 5px;
 }
+
+.theme_leva .topBoards a, .theme_leva #divLatestImages img,
+  .theme_leva #divLatestPosts .latestPostCell, .theme_leva .innerPost,
+  .theme_leva .sideCatalogCell, .theme_leva .markedPost, .theme_leva .sideCatalogMarkedCell,
+  .theme_leeva .catalogCell {
+  background-color: #131718;
+  border-radius: 1px;
+}
+
+/* By Merchick */
+.theme_blymda .topBoards a, .theme_blymda #divLatestImages img,
+  .theme_blymda #divLatestPosts .latestPostCell, .theme_blymda .innerPost,
+  .theme_blymda .sideCatalogCell, .theme_blymda .markedPost, .theme_blymda .sideCatalogMarkedCell,
+  .theme_blymda .catalogCell {
+  background-color: #212121;
+  border-radius: 1px;
+}
+
 
 .validationHashDiv {
   line-break: anywhere;
@@ -44,7 +62,16 @@
 }
 
 .theme_clear .floatingMenu, .theme_clear #quick-reply table {
-  background: #cccccc;
+  background: #eae5e3;
+}
+
+.theme_leva .floatingMenu, .theme_leva #quick-reply table {
+  background: #131718;
+}
+
+/*By Merhcick*/
+.theme_blymda .floatingMenu, .theme_blymda #quick-reply table {
+  background: #181818;
 }
 
 .markedPost, .sideCatalogMarkedCell {
@@ -60,6 +87,17 @@
 
 .theme_clear .markedPost, .theme_clear .sideCatalogMarkedCell {
   background: #868686;
+}
+
+.theme_leva .markedPost, .theme_leva .sideCatalogMarkedCell {
+  color: #101415;
+  background: #c4c4c4;
+}
+
+/*By Merhcick*/
+.theme_blymda .markedPost, .theme_blymda .sideCatalogMarkedCell {
+  color: #101415;
+  background: #c4c4c4;
 }
 
 .theme_clear #divLatestPosts .latestPostCell, .theme_clear .innerPost,
@@ -334,9 +372,21 @@ body.theme_cyber {
 
 body.theme_clear {
   background: none;
-  background-color: #cccccc;
+  background-color: #f0eeed;
   color: #000;
-  background-color: #cccccc;
+}
+
+body.theme_leva {
+  color: #cccccc;
+  font-family: 'Hack', monospace, sans-serif;
+  background: #101415;
+}
+
+/*By Merhcick*/
+body.theme_blymda {
+  color: #cccccc;
+  font-family: 'Hack', monospace, sans-serif;
+  background: #212121;
 }
 
 /* header and nav / top of page styles */
